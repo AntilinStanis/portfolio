@@ -394,7 +394,12 @@
 
     .hero h1 .g {
       color: transparent;
-      -webkit-text-stroke: 1px rgba(74, 242, 161, 0.35)
+      -webkit-text-stroke: 2px rgba(9, 240, 128, 0.466)
+    }
+
+    [data-theme="light"] .hero h1 .g {
+      color: transparent;
+      -webkit-text-stroke: 2px rgba(6, 145, 64, 0.89);
     }
 
     .hero-desc {
@@ -521,7 +526,7 @@
 
     /* HERO IMAGE */
     .hero-image {
-      width: 360px;
+      width: 460px;
       flex-shrink: 0;
       display: flex;
       justify-content: flex-end;
@@ -568,7 +573,7 @@
       inset: 0;
       border-radius: 22px;
       background: linear-gradient(120deg, rgba(255, 255, 255, 0.15), transparent 40%);
-      opacity: 0.25;
+      opacity: 0.5;
       pointer-events: none
     }
 
@@ -2059,7 +2064,8 @@
         <div class="why-card-title">I Pick Up New Tools Fast</div>
         <div class="why-card-body">I went from backend Node.js work to architecting multi-service AWS pipelines,
           building React dashboards, and integrating LLM-assisted development workflows — all within a single role.
-          <strong>I learn what the project needs, not just what I already know.</strong></div>
+          <strong>I learn what the project needs, not just what I already know.</strong>
+        </div>
       </div>
 
       <div class="why-card">
